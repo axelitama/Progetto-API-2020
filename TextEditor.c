@@ -102,7 +102,7 @@ int memory_byte = 0; // Last used byte
 int main()
 {
     /*
-        Instantiates a big amount of space is more efficency than reinstantiate the space every time because 
+        Instantiates a big amount of space is more efficent than reinstantiate the space every time because 
         leaves the memory management to the operating system which instantiates pages only when they are actually used
     */
     table = malloc(10000000);
